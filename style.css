@@ -1,0 +1,11 @@
+html{
+    box-sizing: border-box;
+    /* what this does is allow you to be specific on the width and height of your elements also for the page it makes it so that a horizontal scroll bar wont be added to the page because extra height and extra width is constrained by this css*/
+}
+body{
+    margin:0;
+    min-height:100vh;
+    /*The minh-height here just means that the window page will always be atleast 100 percent of the page,it will never be smaller than 100 view port height. 
+    The margin being 0 just means that there wont be any margin space making the page window page smaller*/
+    background-color:aqua
+}
